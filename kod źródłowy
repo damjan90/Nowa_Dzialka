@@ -1,0 +1,25 @@
+#include <iostream>
+
+using namespace std;
+
+int zmierzDzialke(int kroki)
+
+{
+    return kroki*kroki;
+}
+
+
+int main()
+{
+
+int krok;
+int zakres;
+
+cin>>zakres;
+for(int i = 0 ; i  < zakres ; i++)
+        {
+            cin >> krok;
+            cout<< zmierzDzialke(krok)<<endl;
+        }
+
+}
